@@ -1,0 +1,16 @@
+{
+    "name": "slapo/struct",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^5.1",
+        "vimeo/psalm": "^4.10",
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slapo\\Struct\\": "src/"
+        }
+    }
+}
